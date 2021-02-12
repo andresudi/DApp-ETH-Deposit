@@ -11,7 +11,8 @@
 
 1. npm install
 2. truffle compile
-3. truffle migrate / truffle migrate --reset
+3. ganache-cli
+4. truffle migrate / truffle migrate --reset
 
 ### Step To Console
 
