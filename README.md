@@ -36,7 +36,10 @@ truffle test
 ### Step to run DApp
 
 ```
-npm run start
+1. npm run start
+2. connect to metamask and ensure using Localhost 8545 Network
+3. import testing account from ganache into Metamask
+
 ```
 
 ![Dapp](https://github.com/andresudi/DApp-ETH-Deposit/blob/master/Dapp.png)
