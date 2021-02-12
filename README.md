@@ -11,8 +11,8 @@
 
 ```
 1. npm install
-2. truffle compile
-3. ganache-cli
+2. ganache-cli 
+3. truffle compile
 4. truffle migrate / truffle migrate --reset
 ```
 
