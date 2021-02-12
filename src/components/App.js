@@ -49,7 +49,6 @@ class App extends Component {
       const tokenFarm = new web3.eth.Contract(TokenFarm.abi, tokenFarmData.address)
       this.setState({ tokenFarm })
       let stakingBalance = await tokenFarm.methods.stakingBalance(this.state.account).call()
-      console.log({stakingBalance})
       if (stakingBalance) this.setState({ stakingBalance: stakingBalance.toString() })
     } else {
       window.alert('TokenFarm contract not deployed to detected network.')
@@ -103,7 +102,6 @@ class App extends Component {
 
   render() {
     let content
-    console.log(this.state.stakingBalance)
     if(this.state.loading) {
       content = <p id="loader" className="text-center">Loading...</p>
     } else {

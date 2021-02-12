@@ -90,7 +90,6 @@ contract('TokenFarm', ([owner, investor]) => {
 
       // Check counters
       const counter = await tokenFarm.withDrawRequirement()
-      console.log(counter.toString())
       assert.equal(counter.toString(), '1', 'check if the counter is working')
 
       // Unstake tokens

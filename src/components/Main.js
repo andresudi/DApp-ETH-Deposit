@@ -28,7 +28,6 @@ class Main extends Component {
                 let amount
                 amount = this.input.value.toString()
                 amount = window.web3.utils.toWei(amount, 'Ether')
-                console.log({amount})
                 if (amount < '100000000000000000') {
                   window.alert('Minimum deposit 0.1 ETH')
                 } else {
