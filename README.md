@@ -7,7 +7,7 @@
 * npm install --g truffle@5.1.39
 * Metamask chrome extension
 
-### Step To Compile In Terminal
+### Step to compile in terminal
 
 ```
 1. npm install
@@ -16,7 +16,7 @@
 4. truffle migrate / truffle migrate --reset
 ```
 
-### Step To Console
+### Step to console
 
 ```
 1. truffle console
